@@ -4,7 +4,7 @@
   "description": "",
   "main": "vibe.js",
   "scripts": {
-    "build": "eleventy",
+    "build": "eleventy --pathprefix=jamstack",
     "start": "eleventy --serve"
   },
   "keywords": [],

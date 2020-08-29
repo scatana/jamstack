@@ -21,7 +21,7 @@
   </head>
   <body>
     <header>
-      <a href="/">Your page</a> | <a href="/about">About this page of yours</a>
+      <a href="{{ '/' | url }}">Your page</a> | <a href="{{ '/about' | url }}">About this page of yours</a>
     </header>
     {{ content | safe }}
   </body>
